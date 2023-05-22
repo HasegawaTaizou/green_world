@@ -1,0 +1,88 @@
+@media (max-width: 1260px) {
+  .project-images-container {
+    background-image: linear-gradient(
+      #fff 15%,
+      var(--section-background-color) 15%
+    );
+  }
+
+  .project-images {
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 592px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .food-basket-distribution-project__title {
+    font-size: 1.5rem;
+  }
+
+  .return__icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .project-goal {
+    padding: 92px 32px;
+  }
+
+  .project-goal__text {
+    font-size: 1.5rem;
+  }
+
+  .how-is-possible {
+    padding: 0px 32px 92px 32px;
+  }
+
+  .how-is-possible__item {
+    font-size: 1.5rem;
+  }
+
+  .project-image {
+    max-width: 60vw;
+    max-height: 92vh;
+    min-width: 16vh;
+    min-height: 12vh;
+  }
+}
+
+@media (max-width: 340px) {
+  .food-basket-distribution-project__title {
+    font-size: 1.25rem;
+  }
+
+  .project-goal {
+    padding: 28px 32px;
+  }
+
+  .project-goal__title {
+    font-size: 1.25rem;
+  }
+
+  .project-goal__text {
+    font-size: 0.875rem;
+  }
+
+  .how-is-possible {
+    padding: 0px 32px 48px 32px;
+  }
+
+  .how-is-possible__title {
+    font-size: 1.25rem;
+  }
+
+  .how-is-possible__item {
+    font-size: 0.875rem;
+  }
+
+  .project-images-container {
+    padding-bottom: 48px;
+  }
+}
