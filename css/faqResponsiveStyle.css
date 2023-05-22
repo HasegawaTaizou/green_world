@@ -1,0 +1,49 @@
+@media (max-width: 1220px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+    gap: 78px;
+  }
+
+  .volunteers__image {
+    margin: 0;
+    max-width: 30vw;
+    max-height: 62vh;
+    min-width: 16vh;
+    min-height: 12vh;
+  }
+
+  .faqs {
+    padding-bottom: 96px;
+    padding-left: 48px;
+  }
+}
+
+@media (max-width: 790px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+  .faq {
+    margin: 0;
+  }
+
+  .faq__question {
+    font-size: 1rem;
+    padding-bottom: 12px;
+  }
+
+  .faq__answer {
+    font-size: 1rem;
+  }
+
+  .faq__icon-open,
+  .faq__icon-close {
+    width: 16px;
+    height: 16px;
+  }
+}
