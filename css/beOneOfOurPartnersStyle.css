@@ -1,0 +1,3 @@
+.be-one-of-our-partners-form > input, textarea {
+    background-color: var(--input-background-color);
+}
