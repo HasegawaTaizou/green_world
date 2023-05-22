@@ -1,3 +1,79 @@
-.be-one-of-our-partners-form > input, textarea {
-    background-color: var(--input-background-color);
+input {
+  border-radius: 5px;
+  width: 314px;
+  height: 46px;
+}
+
+label {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.be-one-of-our-partners-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    'name email'
+    'cnpj reason'
+    'button button';
+  justify-items: center;
+  gap: 52px;
+}
+
+.form__name-container {
+  grid-area: name;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.name__input {
+  background-color: var(--input-background-color);
+}
+
+.form__email-container {
+  grid-area: email;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.email__input {
+  background-color: var(--input-background-color);
+}
+
+.form__cnpj-container {
+  grid-area: cnpj;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cnpj__input {
+  background-color: var(--input-background-color);
+}
+
+.form__reason-container {
+  grid-area: reason;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.reason__textarea {
+  border-radius: 5px;
+  background-color: var(--input-background-color);
+  resize: none;
+  width: 314px;
+  height: 152px;
+}
+
+.reason__button {
+  grid-area: button;
+  width: 314px;
+  height: 46px;
+  background: #408d7b;
+  border-radius: 5px;
+  color: #fff;
 }
