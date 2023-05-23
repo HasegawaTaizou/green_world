@@ -1,0 +1,143 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 54px 98px 32px 98px;
+  gap: 32px;
+}
+
+.volunteer-registration__title::before {
+  content: "Passo 1 de 3";
+  display: block;
+  font-size: 0.875rem;
+  color: #5c5c5c;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  font-family: "Abel";
+  text-transform: none;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+}
+
+input {
+  border-radius: 5px;
+  width: 314px;
+  height: 46px;
+  padding-left: 12px;
+  font-family: "Abel";
+  font-size: 1.25rem;
+}
+
+label {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.volunteer-registration-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "name surname"
+    "full-name date-birth"
+    "rg cpf"
+    "phone ."
+    "button button";
+  justify-items: center;
+  gap: 32px;
+}
+
+.form__name-container {
+  grid-area: name;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.name__input {
+  background-color: var(--input-background-color);
+}
+
+.form__surname-container {
+  grid-area: surname;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.surname__input {
+  background-color: var(--input-background-color);
+}
+
+.form__full-name-container {
+  grid-area: full-name;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.full-name__input {
+  background-color: var(--input-background-color);
+}
+
+.form__date-birth-container {
+  grid-area: date-birth;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.date-birth__input {
+  background-color: var(--input-background-color);
+}
+
+.form__rg-container {
+  grid-area: rg;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rg__input {
+  background-color: var(--input-background-color);
+}
+
+.form__cpf-container {
+  grid-area: cpf;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cpf__input {
+  background-color: var(--input-background-color);
+}
+
+.form__phone-container {
+  grid-area: phone;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.phone__input {
+  background-color: var(--input-background-color);
+}
+
+.volunteer-registration__button {
+  grid-area: button;
+  width: 314px;
+  height: 46px;
+  background: #408d7b;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Abel";
+  font-size: 1.125rem;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 128px;
+}
