@@ -20,11 +20,13 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/generalStyle.css" />
     <link rel="stylesheet" href="./css/limitsSizeStyle.css" />
-    <link rel="stylesheet" href="./css/beOneOfOurPartnersStyle.css">
+    <link rel="stylesheet" href="./css/beOneOfOurPartnersStyle.css" />
+    <link rel="stylesheet" href="./css/beOneOfOurPartnersResponsiveStyle.css" />
     <title>Distribuição de cestas básicas</title>
   </head>
   <body>
-    <header>
+    <div class="content">
+      <header>
         <h1 class="be-one-of-our-partners__title">
           SEJA UM DE NOSSOS PARCEIROS
         </h1>
@@ -34,29 +36,40 @@
             alt="Return Icon"
             class="return__icon"
         /></a>
-    </header>
-    <main>
-        <img src="./img/be-one-of-our-partners-image.png" alt="Be One Of Our Partners Image" class="be-one-of-our-partners__image">
+      </header>
+      <main>
+        <img
+          src="./img/be-one-of-our-partners-image.png"
+          alt="Be One Of Our Partners Image"
+          class="be-one-of-our-partners__image"
+        />
         <form action="" class="be-one-of-our-partners-form">
-            <div class="form__name-container">
-                <label for="name" class="name__label">Nome:</label>
-                <input type="text" class="name__input">
-            </div>
-            <div class="form__email-container">
-                <label for="email" class="email__label">E-mail:</label>
-                <input type="email" class="email__input">
-            </div>
-            <div class="form__cnpj-container">
-                <label for="cnpj" class="cnpj__label">CNPJ:</label>
-                <input type="number" class="cnpj__input">
-            </div>
-            <div class="form__reason-container">
-                <label class="reason__label">Motivo:</label>
-                <textarea class="reason__textarea" name="" id="" cols="30" rows="10"></textarea>
-            </div>
-            <button class="reason__button">Enviar</button>
+          <div class="form__name-container">
+            <label for="name" class="name__label">Nome:</label>
+            <input type="text" class="name__input" />
+          </div>
+          <div class="form__email-container">
+            <label for="email" class="email__label">E-mail:</label>
+            <input type="email" class="email__input" />
+          </div>
+          <div class="form__cnpj-container">
+            <label for="cnpj" class="cnpj__label">CNPJ:</label>
+            <input type="number" class="cnpj__input" />
+          </div>
+          <div class="form__reason-container">
+            <label class="reason__label">Motivo:</label>
+            <textarea
+              class="reason__textarea"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="reason__button">Enviar</button>
         </form>
-    </main>
-    <footer></footer>
+      </main>
+      <footer></footer>
+    </div>
   </body>
 </html>

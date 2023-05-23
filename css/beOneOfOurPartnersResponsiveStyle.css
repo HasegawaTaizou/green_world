@@ -1,0 +1,39 @@
+@media (max-width: 762px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .be-one-of-our-partners__title {
+    font-size: 1.25rem;
+  }
+
+  .return__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .be-one-of-our-partners-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .reason__button {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 420px) {
+  input {
+    width: 75vw;
+  }
+
+  .reason__textarea {
+    width: 75vw;
+  }
+
+  .reason__button {
+    width: 75vw;
+  }
+}
