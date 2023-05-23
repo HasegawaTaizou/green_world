@@ -8,5 +8,6 @@
 @import url("variables.css");
 @import url("volunteersResponsiveStyle.css");
 @import url("volunteersStyle.css");
-@import url("feedbackStyle.css");
-@import url("feedbackResponsiveStyle.css");
+@import url("feedbackBeneficiariesStyle.css");
+@import url("feedbackBeneficiariesResponsiveStyle.css");
+@import url("indexStyle.css");

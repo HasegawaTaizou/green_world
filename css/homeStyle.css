@@ -1,0 +1,44 @@
+#home{
+    background-image: url(../img/background-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;   
+}
+
+.content-presenting-company{
+
+}
+
+.title-home{
+    font-size: 4.375rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.caption-home{
+    color: white;
+    font-size: 2.188rem;
+}
+
+.navigations{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigations .navigation a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.content-buttons{
+    color: white;
+}
+
+.green-world-logo{
+    display: flex;
+   align-self: end end;
+   height: 30px;
+   width:    30px;
+}

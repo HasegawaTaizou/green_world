@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    grid-template-areas: "content";
+    height: 100vh;
+}
+
+header{
+    grid-area: content;
+    z-index: 2;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: blue;
+    opacity: 50%;
+    width: 100%;
+    color: white;
+}
+
+main{
+    grid-area: content;
+    width: 100%;
+}
+
+h3{
+    font-size: 3.125rem;
+}
+/* 
+footer{
+    grid-area: content;
+    place-self: end center;
+    width: 100%;
+    background-color: blue;
+} */

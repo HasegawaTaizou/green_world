@@ -1,0 +1,7 @@
+#who-we-are{
+    display: flex;
+}
+
+.who-we-are-content{
+    padding: 30px 85px;
+}

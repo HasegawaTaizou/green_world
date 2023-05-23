@@ -1,0 +1,59 @@
+footer{
+    /* gap: 50px; */
+    padding: 100px 100px 20px 100px;
+    background-color: var(--title-color);
+    color: white;
+    display: grid;
+    grid-template-columns: 60% auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "agriculture support contact"
+    "social-media social-media social-media"
+    "copyright copyright copyright";
+}
+
+.meaning-of-agriculture-content{
+    grid-area: agriculture;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.social-media-container{
+    grid-area: social-media;
+    place-self: start;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.support-content{
+    grid-area: support;
+    place-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* padding-right: 30px; */
+}
+
+.support__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content{
+    grid-area: contact;
+    place-self: end;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.copyright{
+    grid-area: copyright; 
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    width: 100%;
+    
+}

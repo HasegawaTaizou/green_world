@@ -1,4 +1,4 @@
-header {
+.header-feedback-beneficiaries{
     padding: 54px 98px 112px 98px;
     display: flex;
     align-items: start;
@@ -10,7 +10,7 @@ header {
     margin: 0;
 }
 
-main{
+.main-feedback-beneficiaries{
     padding: 40px 80px 80px 80px;
     width: 100%;
     display: flex;

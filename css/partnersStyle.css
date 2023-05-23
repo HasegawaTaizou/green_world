@@ -1,0 +1,13 @@
+#our-partners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 90px;
+    padding: 100px 85px 100px 85px;
+}
+
+.partners-content{
+    display: flex;
+    gap: 70px
+}

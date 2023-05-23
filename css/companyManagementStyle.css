@@ -1,0 +1,26 @@
+#company-management{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#company-management article{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    justify-content: space-between;
+    padding: 45px 55px;
+}
+
+.article-vision{
+    background-color: var(--section-background-color);
+    color: white;
+}
+
+.article-mission, .article-values{
+    border: 1px solid #B5AAAA;
+}
