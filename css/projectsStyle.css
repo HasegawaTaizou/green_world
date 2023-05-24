@@ -9,30 +9,30 @@
 .projects-title-content {
     display: flex;
     justify-content: space-between;
-    padding: 0 85px ;
+    padding: 0 85px;
 }
 
-.projects-container{
+.projects-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-bottom:70px;
-    background-image: linear-gradient(
-    #fff 35%,
-    var(--section-background-color) 20%
-  );
-  width: 100%;
+   
+    justify-content: space-between;
+    padding: 0 85px 70px 85px;
+    background-image: linear-gradient(#fff 35%,
+            var(--section-background-color) 20%);
+    width: 100%;
 }
 
 .project-content-every-drop-counts,
-.project-content-seed-of-love, 
-.project-content-food-distribution{
+.project-content-seed-of-love,
+.project-content-food-distribution {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-    height: 550px;
-    width: 400px;
+    height: 58vh;
+    width: 23vw;
     display: flex;
+   
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -43,30 +43,30 @@
     background-image: url('../img/image-project-every-drop-counts.png');
 }
 
-.project-content-seed-of-love{
+.project-content-seed-of-love {
     background-image: url('../img/image-project-seed-of-love.png');
 }
 
-.project-content-food-distribution{
+.project-content-food-distribution {
     background-image: url('../img/image-project-food-distribution.png');
 }
 
-.be-a-volunteer-content{
+.be-a-volunteer-content {
     max-width: 30vw;
     display: flex;
     flex-direction: column;
 }
 
-.be-a-volunteer__link{
+.be-a-volunteer__link {
     padding-top: 30px;
     place-self: end end;
 }
 
-.be-a-volunteer__text{
+.be-a-volunteer__text {
     font-size: 1.188rem;
 }
 
-.be-a-volunteer__button{
+.be-a-volunteer__button {
     background-color: var(--title-color);
     color: white;
     width: 225px;
@@ -78,7 +78,7 @@
     transition: all 400ms ease-in-out;
 }
 
-.project__button{
+.project__button {
     background-color: var(--title-color);
     color: white;
     width: 160px;
@@ -90,7 +90,8 @@
     transition: all 400ms ease-in-out;
 }
 
-.project__name{
+.project__name {
+    font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     color: #fff;
     font-weight: 600;
@@ -98,7 +99,7 @@
     text-align: center;
 }
 
-.family-know-more__button{
+.family-know-more__button {
     background-color: var(--section-background-color);
     color: white;
     width: 230px;
@@ -110,11 +111,12 @@
     transition: all 400ms ease-in-out;
 }
 
-.family-text{
+.family-text {
     width: 30vw;
+    color: black;
 }
 
-.partner__button{
+.partner__button {
     background-color: var(--section-background-color);
     color: white;
     width: 230px;

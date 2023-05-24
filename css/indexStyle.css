@@ -28,10 +28,16 @@ h3{
     
 }
 
-
-
-footer{
-    /* grid-area: content;
-    place-self: end center; */
-    width: 100%;
+.back-top{
+    color: var(--subtitle-color);
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    transition: all .5s;
+    rotate: 90deg;
+    font-size: 1.6rem;
 }
+
+

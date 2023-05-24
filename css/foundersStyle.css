@@ -9,7 +9,7 @@
     justify-content: space-around;
 }
 
-.image-founder{
+.founder__image{
     width: 300px;
     height: 300px;
     border-radius: 300px;
@@ -22,9 +22,37 @@
     gap: 16px;
 }
 
+.founder__name{
+    font-size: 1.875rem;
+}
+
+.founder__office{
+    font-size: 1.563rem;
+}
+
 .social-media{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+
+.social{
+    color: var(--section-background-color);
+    font-size: 1.7rem;
+    height: 55px;
+    width: 55px;
+    border-radius: 200px;
+    border: 2px solid var(--section-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 400ms ease-in-out;
+    cursor: pointer;
+}
+
+.social:hover {
+    background-color: var(--section-background-color);
+    color:#EAEAEA ;
+    transform: scale(1.2);
 }

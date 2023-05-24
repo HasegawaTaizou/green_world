@@ -3,11 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 90px;
+    gap: 70px;
     padding: 100px 85px 100px 85px;
 }
 
 .partners-content{
     display: flex;
     gap: 70px
+}
+
+.partner-text{
+    color: black;
+    font-size: 1.6rem;
 }

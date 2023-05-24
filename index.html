@@ -1,10 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
     <link rel="stylesheet" href="./css/indexStyle.css">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/variables.css">
@@ -35,7 +42,7 @@
                 <li class="navigation"><a href="#projects">Projetos</a></li>
                 <li class="navigation"><a href="#family">Famílias</a></li>
                 <li class="navigation"><a href="#our-partners">Parcerias</a></li>
-                <li class="navigation"><a href="#">Voluntários</a></li>
+                <li class="navigation"><a href="./volunteers.html">Voluntários</a></li>
             </ul>
         </nav>
         <div class="content-buttons">
@@ -53,6 +60,10 @@
 
     </header>
     <main>
+        <a class="back-top" href="#">
+            <i class="fas fa-arrow-circle-left"></i>
+        </a>
+
         <section id="home">
             <div class="content-presenting-company">
                 <h1 class="title-home">Green World</h1>
@@ -64,7 +75,7 @@
                     </button>
                 </a>
             </div>
-            <img class="green-world-logo" src="./img/green-world-logo.png" alt="">
+            <!-- <img class="green-world-logo" src="./img/green-world-logo.png" alt=""> -->
         </section>
 
         <section id="company-management">
@@ -95,7 +106,7 @@
         </section>
 
         <section id="who-we-are">
-            <img class="teste" src="./img/sapling-being-planted.png" alt="">
+            <img class="teste" src="./img/rufus-o-dea-p3Loavrv6z8-unsplash.jpg" alt="">
             <article class="who-we-are-content">
                 <h3 class="who-we-are__title">Quem somos?</h3>
                 <p class="who-we-are__text">
@@ -110,16 +121,17 @@
                     Pellentesque egestas non mi ut venenatis. Sed ac velit feugiat orci efficitur finibus. Phasellus
                     dui lorem, feugiat non tempus et, mattis vel elit. Cras congue nisl ex, id mollis eros bibendum
                     sed. Cras volutpat ante sed euismod condimentum. Mauris nec eros tortor. Pellentesque bibendum,
-                    tortor et rhoncus semper, arcu eros volutpat ante, elementum efficitur elit felis ut ligula.
+                    tortor et rhoncus semper, arcu eros volutpat ante, elementum efficitur elit felis ut ligula. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero rem ipsam quo nam in ullam iure, quaerat, minus nobis delectus magni cupiditate omnis ex, recusandae quisquam nulla voluptatibus error aperiam?
                 </p>
             </article>
         </section>
 
         <section id="our-cause">
 
-            <article class="your-cause-content">
-                <h3 class="your-cause__title">Nossa causa</h3>
-                <p class="your-cause__text">
+            <article class="our-cause-content">
+                <h3 class="our-cause__title">Nossa causa</h3>
+                <p class="our-cause__text">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                     at finibus diam. Nulla efficitur neque eget est lacinia, pellentesque rhoncus velit porta. Etiam
                     dapibus tempus tellus et volutpat. Curabitur commodo enim bibendum, condimentum augue id,
@@ -131,10 +143,11 @@
                     Pellentesque egestas non mi ut venenatis. Sed ac velit feugiat orci efficitur finibus. Phasellus
                     dui lorem, feugiat non tempus et, mattis vel elit. Cras congue nisl ex, id mollis eros bibendum
                     sed. Cras volutpat ante sed euismod condimentum. Mauris nec eros tortor. Pellentesque bibendum,
-                    tortor et rhoncus semper, arcu eros volutpat ante, elementum efficitur elit felis ut ligula.
+                    tortor et rhoncus semper, arcu eros volutpat ante, elementum efficitur elit felis ut ligula. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero rem ipsam quo nam in ullam iure, quaerat, minus nobis delectus magni cupiditate omnis ex, recusandae quisquam nulla voluptatibus error aperiam?
                 </p>
             </article>
-            <img src="./img/plant.png" alt="">
+            <img  class="our-cause__image" src="./img/farmer-image.png" alt="">
         </section>
 
         <section id="projects">
@@ -195,12 +208,12 @@
             <p class="family-text">Acompanhe os relatos das famílias beneficiadas pelos nossos projetos: </p>
 
             <div class="familys-imagens">
-                <img src="./img/plant.png" alt="">
-                <img src="./img/plant.png" alt="">
-                <img src="./img/plant.png" alt="">
+                <img src="./img/family1.png" alt="">
+                <img src="./img/family2.png" alt="">
+                <img src="./img/family3.png" alt="">
             </div>
 
-            <a class="family-know-more__link" href="">
+            <a class="family-know-more__link" href="./feedback_beneficiaries.html">
                 <button class="family-know-more__button">
                     Saber mais
                 </button>
@@ -234,7 +247,7 @@
             </ul>
 
             <p class="partner-text">Está interessado em ser um de nossos parceiros? Clique em “saber mais”.</p>
-            <a class="partner__link" href="">
+            <a class="partner__link" href="./our_partners.html">
                 <button class="partner__button">Saber mais</button>
             </a>
         </section>
@@ -243,9 +256,9 @@
 
             <div class="founders-content">
                 <article class="founder-container">
-                    <img class="image-founder" src="./img/plant.png" alt="">
-                    <span>Mabel</span>
-                    <span>Lorem ipsum dolor sit amet</span>
+                    <img class="founder__image" src="./img/avatar-woman.png" alt="">
+                    <span  class="founder__name">Mabel</span>
+                    <span class="founder__office">Lorem ipsum dolor sit amet</span>
                     <nav class="social-media-founder-container">
                         <ul class="social-media">
                             <li>
@@ -262,9 +275,9 @@
                     </nav>
                 </article>
                 <article class="founder-container">
-                    <img class="image-founder" src="./img/plant.png" alt="">
-                    <span>Maycon</span>
-                    <span>Lorem ipsum dolor sit amet</span>
+                    <img class="founder__image" src="./img/avatar-man.png" alt="">
+                    <span class="founder__name">Maycon</span>
+                    <span class="founder__office">Lorem ipsum dolor sit amet</span>
                     <nav class="social-media-founder-container">
                         <ul class="social-media">
                             <li>
@@ -281,9 +294,9 @@
                     </nav>
                 </article>
                 <article class="founder-container">
-                    <img class="image-founder" src="./img/plant.png" alt="">
-                    <span>Brenda</span>
-                    <span>Lorem ipsum dolor sit amet</span>
+                    <img class="founder__image" src="./img/avatar-woman.png" alt="">
+                    <span class="founder__name">Brenda</span>
+                    <span class="founder__office">Lorem ipsum dolor sit amet</span>
                     <nav class="social-media-founder-container">
                         <ul class="social-media">
                             <li>
@@ -310,15 +323,15 @@
         </div>
 
         <nav class="social-media-container">
-            <ul class="social-media">
+            <ul class="social-media__footer">
                 <li>
-                    <a href="#" class="social"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social__footer"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social__footer"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social__footer"><i class="fab fa-facebook-f"></i></a>
                 </li>
 
             </ul>
@@ -327,8 +340,8 @@
         <div class="support-content">
             <span class="support__title">Suporte</span>
             <div class="support__links">
-                <a href="">Faq</a>
-                <a href="">Política de privacidade</a>
+                <a class="support__link" href="./faq.html">FAQ</a>
+                <a class="support__link" href="#">Política de privacidade</a>
             </div>
 
         </div>

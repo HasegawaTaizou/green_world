@@ -1,16 +1,31 @@
-#who-we-are{
+#who-we-are {
     display: flex;
+    /* justify-content: center; */
+    /* gap: 90px; */
 }
 
-.who-we-are-content{
-    padding: 30px 85px;
+.who-we-are__title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.who-we-are-content {
+    padding: 0 85px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 85px;
+    width: 55%;
+
 }
 
-/* .who-we-are img{
-    width: 50vw;
-} */
+.who-we-are__text {
+    font-size: 1.55rem;
+}
 
+.teste {
+    height: 100vh;
+    width: 45%;
+    border-radius: 0 10px 10px 0;
+}
