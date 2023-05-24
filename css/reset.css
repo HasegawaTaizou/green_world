@@ -12,6 +12,7 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 input::-webkit-outer-spin-button,
