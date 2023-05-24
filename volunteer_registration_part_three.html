@@ -20,17 +20,20 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/generalStyle.css" />
     <link rel="stylesheet" href="./css/limitsSizeStyle.css" />
-    <link rel="stylesheet" href="./css/volunteerRegistrationPartTwoStyle.css" />
     <link
       rel="stylesheet"
-      href="./css/volunteerRegistrationPartTwoResponsiveStyle.css"
+      href="./css/volunteerRegistrationPartThreeStyle.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/volunteerRegistrationPartThreeResponsiveStyle.css"
     />
     <title>Cadastro de voluntário</title>
   </head>
   <body>
     <div class="content">
       <header>
-        <h1 class="volunteer-registration-part-two__title">
+        <h1 class="volunteer-registration-part-three__title">
           CADASTRO VOLUNTÁRIO
         </h1>
         <a href="#" class="return__link"
@@ -46,32 +49,22 @@
           alt="Volunteer Registration Image"
           class="volunteer-registration__image"
         />
-        <form action="" class="volunteer-registration-part-two-form">
-          <div class="form__cep-container">
-            <label for="cep" class="cep__label">CEP:</label>
-            <input type="text" class="cep__input" />
+        <form action="" class="volunteer-registration-part-three-form">
+          <div class="form__reason-container">
+            <label for="reason" class="reason__label">Motivo:</label>
+            <textarea
+              name="reason"
+              id=""
+              cols="30"
+              rows="10"
+              class="reason__textarea"
+            ></textarea>
           </div>
-          <div class="form__road-container">
-            <label for="road" class="road__label">Rua:</label>
-            <input type="text" class="road__input" />
-          </div>
-          <div class="form__neighborhood-container">
-            <label for="neighborhood" class="neighborhood__label"
-              >Bairro:</label
+          <div class="form__have-experience-container">
+            <label for="have-experience" class="have-experience__label"
+              >Tenho experiência:</label
             >
-            <input type="text" class="neighborhood__input" />
-          </div>
-          <div class="form__number-container">
-            <label for="number" class="number__label">Número:</label>
-            <input type="text" class="number__input" />
-          </div>
-          <div class="form__state-container">
-            <label for="state" class="state__label">Estado:</label>
-            <input type="text" class="state__input" />
-          </div>
-          <div class="form__city-container">
-            <label for="city" class="city__label">Cidade:</label>
-            <input type="text" class="city__input" />
+            <input type="text" class="have-experience__input" />
           </div>
           <button class="volunteer-registration__button">Continuar</button>
         </form>

@@ -6,7 +6,7 @@ header {
   gap: 32px;
 }
 
-.volunteer-registration__title::before {
+.volunteer-registration-part-one__title::before {
   content: "Passo 1 de 3";
   display: block;
   font-size: 0.875rem;
@@ -37,7 +37,7 @@ label {
   font-weight: 600;
 }
 
-.volunteer-registration-form {
+.volunteer-registration-part-one-form {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;

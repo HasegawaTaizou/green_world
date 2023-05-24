@@ -5,7 +5,7 @@
     gap: 12px;
   }
 
-  .volunteer-registration-part-one__title {
+  .volunteer-registration-part-three__title {
     font-size: 1.45rem;
   }
 
@@ -14,7 +14,7 @@
     height: 32px;
   }
 
-  .volunteer-registration-part-one-form {
+  .volunteer-registration-part-three-form {
     display: flex;
     flex-direction: column;
   }
@@ -38,5 +38,11 @@
 
   .volunteer-registration__button {
     width: 75vw;
+  }
+}
+
+@media (max-width: 672px) {
+  .reason__textarea {
+    width: 90vw;
   }
 }
