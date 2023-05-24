@@ -29,7 +29,7 @@ footer{
 
 .support-content{
     grid-area: support;
-    place-self: end;
+    place-self: start end;
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -43,7 +43,7 @@ footer{
 
 .contact-content{
     grid-area: contact;
-    place-self: end;
+    place-self: start end;
     display: flex;
     flex-direction: column;
     gap: 25px;

@@ -61,3 +61,67 @@
     padding-top: 30px;
     place-self: end end;
 }
+
+.be-a-volunteer__text{
+    font-size: 1.188rem;
+}
+
+.be-a-volunteer__button{
+    background-color: var(--title-color);
+    color: white;
+    width: 225px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.project__button{
+    background-color: var(--title-color);
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.project__name{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.family-know-more__button{
+    background-color: var(--section-background-color);
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.family-text{
+    width: 30vw;
+}
+
+.partner__button{
+    background-color: var(--section-background-color);
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}

@@ -5,4 +5,9 @@
 
 .your-cause-content{
     padding: 30px 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 85px;
+    
 }
