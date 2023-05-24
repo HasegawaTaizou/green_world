@@ -1,0 +1,131 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 54px 98px 32px 98px;
+  gap: 32px;
+}
+
+.beneficiary-registration-part-two__title::before {
+  content: "Passo 2 de 3";
+  display: block;
+  font-size: 0.875rem;
+  color: #5c5c5c;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  font-family: "Abel";
+  text-transform: none;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+}
+
+input {
+  border-radius: 5px;
+  width: 314px;
+  height: 46px;
+  padding-left: 12px;
+  font-family: "Abel";
+  font-size: 1.25rem;
+}
+
+label {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.beneficiary-registration-part-two-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+    "cep road"
+    "neighborhood number"
+    "state city"
+    "button button";
+  justify-items: center;
+  gap: 32px;
+}
+
+.form__cep-container {
+  grid-area: cep;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cep__input {
+  background-color: var(--input-background-color);
+}
+
+.form__road-container {
+  grid-area: road;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.road__input {
+  background-color: var(--input-background-color);
+}
+
+.form__number-container {
+  grid-area: number;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.number__input {
+  background-color: var(--input-background-color);
+}
+
+.form__neighborhood-container {
+  grid-area: neighborhood;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.neighborhood__input {
+  background-color: var(--input-background-color);
+}
+
+.form__city-container {
+  grid-area: city;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.city__input {
+  background-color: var(--input-background-color);
+}
+
+.form__state-container {
+  grid-area: state;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.state__input {
+  background-color: var(--input-background-color);
+}
+
+.beneficiary-registration__button {
+  grid-area: button;
+  width: 314px;
+  height: 46px;
+  background: #408d7b;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Abel";
+  font-size: 1.125rem;
+  cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 128px;
+}
