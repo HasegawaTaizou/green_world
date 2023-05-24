@@ -12,6 +12,7 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 html {
@@ -33,6 +34,8 @@ h2 {
 
 button{
   font-family: "Abel", sans-serif;
+  outline: 0;
+  border: 0;
 }
 
 h3{
@@ -50,6 +53,7 @@ h2 {
   font-weight: 600;
   color: var(--subtitle-color);
 }
+
 
 p {
   color: var(--text-color);

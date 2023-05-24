@@ -6,6 +6,17 @@ header {
   gap: 32px;
 }
 
+.volunteer-registration-part-two__title::before {
+  content: "Passo 2 de 3";
+  display: block;
+  font-size: 0.875rem;
+  color: #5c5c5c;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  font-family: "Abel";
+  text-transform: none;
+}
+
 main {
   display: grid;
   justify-items: center;
@@ -26,70 +37,86 @@ label {
   font-weight: 600;
 }
 
-.be-one-of-our-partners-form {
+.volunteer-registration-part-two-form {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas:
-    "name cnpj"
-    "email reason"
+    "cep road"
+    "neighborhood number"
+    "state city"
     "button button";
   justify-items: center;
-  gap: 52px;
+  gap: 32px;
 }
 
-.form__name-container {
-  grid-area: name;
+.form__cep-container {
+  grid-area: cep;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.name__input {
+.cep__input {
   background-color: var(--input-background-color);
 }
 
-.form__email-container {
-  grid-area: email;
+.form__road-container {
+  grid-area: road;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.email__input {
+.road__input {
   background-color: var(--input-background-color);
 }
 
-.form__cnpj-container {
-  grid-area: cnpj;
+.form__number-container {
+  grid-area: number;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.cnpj__input {
+.number__input {
   background-color: var(--input-background-color);
 }
 
-.form__reason-container {
-  grid-area: reason;
+.form__neighborhood-container {
+  grid-area: neighborhood;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.reason__textarea {
-  border-radius: 5px;
+.neighborhood__input {
   background-color: var(--input-background-color);
-  resize: none;
-  width: 314px;
-  height: 152px;
-  padding: 12px 12px;
-  font-family: "Abel";
-  font-size: 1.25rem;
 }
 
-.reason__button {
+.form__city-container {
+  grid-area: city;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.city__input {
+  background-color: var(--input-background-color);
+}
+
+.form__state-container {
+  grid-area: state;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.state__input {
+  background-color: var(--input-background-color);
+}
+
+.volunteer-registration__button {
   grid-area: button;
   width: 314px;
   height: 46px;
@@ -99,4 +126,6 @@ label {
   font-family: "Abel";
   font-size: 1.125rem;
   cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 128px;
 }

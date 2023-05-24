@@ -6,6 +6,17 @@ header {
   gap: 32px;
 }
 
+.volunteer-registration-part-one__title::before {
+  content: "Passo 1 de 3";
+  display: block;
+  font-size: 0.875rem;
+  color: #5c5c5c;
+  margin-bottom: 30px;
+  padding-right: 30px;
+  font-family: "Abel";
+  text-transform: none;
+}
+
 main {
   display: grid;
   justify-items: center;
@@ -26,16 +37,18 @@ label {
   font-weight: 600;
 }
 
-.be-one-of-our-partners-form {
+.volunteer-registration-part-one-form {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-template-areas:
-    "name cnpj"
-    "email reason"
+    "name surname"
+    "full-name date-birth"
+    "rg cpf"
+    "phone ."
     "button button";
   justify-items: center;
-  gap: 52px;
+  gap: 32px;
 }
 
 .form__name-container {
@@ -49,47 +62,73 @@ label {
   background-color: var(--input-background-color);
 }
 
-.form__email-container {
-  grid-area: email;
+.form__surname-container {
+  grid-area: surname;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.email__input {
+.surname__input {
   background-color: var(--input-background-color);
 }
 
-.form__cnpj-container {
-  grid-area: cnpj;
+.form__full-name-container {
+  grid-area: full-name;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.cnpj__input {
+.full-name__input {
   background-color: var(--input-background-color);
 }
 
-.form__reason-container {
-  grid-area: reason;
+.form__date-birth-container {
+  grid-area: date-birth;
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.reason__textarea {
-  border-radius: 5px;
+.date-birth__input {
   background-color: var(--input-background-color);
-  resize: none;
-  width: 314px;
-  height: 152px;
-  padding: 12px 12px;
-  font-family: "Abel";
-  font-size: 1.25rem;
 }
 
-.reason__button {
+.form__rg-container {
+  grid-area: rg;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.rg__input {
+  background-color: var(--input-background-color);
+}
+
+.form__cpf-container {
+  grid-area: cpf;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cpf__input {
+  background-color: var(--input-background-color);
+}
+
+.form__phone-container {
+  grid-area: phone;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.phone__input {
+  background-color: var(--input-background-color);
+}
+
+.volunteer-registration__button {
   grid-area: button;
   width: 314px;
   height: 46px;
@@ -99,4 +138,6 @@ label {
   font-family: "Abel";
   font-size: 1.125rem;
   cursor: pointer;
+  margin-top: 32px;
+  margin-bottom: 128px;
 }

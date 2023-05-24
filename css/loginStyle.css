@@ -26,31 +26,14 @@ label {
   font-weight: 600;
 }
 
-.be-one-of-our-partners-form {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto;
-  grid-template-areas:
-    "name cnpj"
-    "email reason"
-    "button button";
-  justify-items: center;
-  gap: 52px;
-}
-
-.form__name-container {
-  grid-area: name;
+.login-form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-}
-
-.name__input {
-  background-color: var(--input-background-color);
+  align-items: center;
+  gap: 32px;
 }
 
 .form__email-container {
-  grid-area: email;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -60,42 +43,41 @@ label {
   background-color: var(--input-background-color);
 }
 
-.form__cnpj-container {
-  grid-area: cnpj;
+.form__password-container {
   display: flex;
   flex-direction: column;
   gap: 14px;
 }
 
-.cnpj__input {
+.password__input {
   background-color: var(--input-background-color);
 }
 
-.form__reason-container {
-  grid-area: reason;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.reason__textarea {
-  border-radius: 5px;
-  background-color: var(--input-background-color);
-  resize: none;
-  width: 314px;
-  height: 152px;
-  padding: 12px 12px;
-  font-family: "Abel";
-  font-size: 1.25rem;
-}
-
-.reason__button {
-  grid-area: button;
+.login__button {
   width: 314px;
   height: 46px;
   background: #408d7b;
   border-radius: 5px;
   color: #fff;
+  font-family: "Abel";
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.login__forgot-password {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  margin: 0px 80px;
+}
+
+.login__register {
+  width: 314px;
+  height: 46px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
   font-family: "Abel";
   font-size: 1.125rem;
   cursor: pointer;
