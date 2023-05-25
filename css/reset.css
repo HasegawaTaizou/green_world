@@ -62,3 +62,7 @@ p {
 input {
   border: 0;
 }
+
+textarea {
+  border: 0;
+}
