@@ -1,0 +1,16 @@
+@media (max-width: 762px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .check-your-email__title {
+    font-size: 1.45rem;
+  }
+
+  .return__icon {
+    width: 32px;
+    height: 32px;
+  }
+}
