@@ -52,28 +52,6 @@ label {
   gap: 32px;
 }
 
-.form__name-container {
-  grid-area: name;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.name__input {
-  background-color: var(--input-background-color);
-}
-
-.form__surname-container {
-  grid-area: surname;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.surname__input {
-  background-color: var(--input-background-color);
-}
-
 .form__full-name-container {
   grid-area: full-name;
   display: flex;
@@ -137,17 +115,6 @@ label {
 }
 
 .email__input {
-  background-color: var(--input-background-color);
-}
-
-.form__password-container {
-  grid-area: password;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.password__input {
   background-color: var(--input-background-color);
 }
 
