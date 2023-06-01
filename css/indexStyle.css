@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    grid-template-areas: "content";
+    height: 100vh;
+}
+
+header{
+    grid-area: content;
+    z-index: 2;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    width: 100%;
+    color: white;
+}
+
+main{
+    grid-area: content;
+    width: 100%;
+}
+
+h3{
+    font-size: 3.125rem;
+    color: var(--subtitle-color);
+    text-transform: uppercase;
+    
+}
+
+.back-top{
+    color: var(--subtitle-color);
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: grid;
+    place-content: center;
+    transition: all .5s;
+    rotate: 90deg;
+    font-size: 1.6rem;
+}
+
+

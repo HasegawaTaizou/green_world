@@ -1,0 +1,129 @@
+#projects {
+    height: 100vh;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects-title-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 85px;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    padding: 0 85px 70px 85px;
+    background-image: linear-gradient(#fff 35%,
+            var(--section-background-color) 20%);
+    width: 100%;
+}
+
+.project-content-every-drop-counts,
+.project-content-seed-of-love,
+.project-content-food-distribution {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    height: 58vh;
+    width: 23vw;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 80px 60px 80px;
+}
+
+.project-content-every-drop-counts {
+    background-image: url('../img/image-project-every-drop-counts.png');
+}
+
+.project-content-seed-of-love {
+    background-image: url('../img/image-project-seed-of-love.png');
+}
+
+.project-content-food-distribution {
+    background-image: url('../img/image-project-food-distribution.png');
+}
+
+.be-a-volunteer-content {
+    max-width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.be-a-volunteer__link {
+    padding-top: 30px;
+    place-self: end end;
+}
+
+.be-a-volunteer__text {
+    font-size: 1.188rem;
+}
+
+.be-a-volunteer__button {
+    background-color: var(--title-color);
+    color: white;
+    width: 225px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.project__button {
+    background-color: var(--title-color);
+    color: white;
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.project__name {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.family-know-more__button {
+    background-color: var(--section-background-color);
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}
+
+.family-text {
+    width: 30vw;
+    color: black;
+}
+
+.partner__button {
+    background-color: var(--section-background-color);
+    color: white;
+    width: 230px;
+    height: 42px;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    cursor: pointer;
+    border: 0;
+    transition: all 400ms ease-in-out;
+}

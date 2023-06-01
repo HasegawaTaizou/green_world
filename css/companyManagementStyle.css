@@ -1,0 +1,49 @@
+#company-management{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#company-management article{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+  
+    padding: 45px 55px;
+}
+
+.article-vision{
+    background-color: var(--section-background-color);
+    color: white;
+}
+
+.article-title__span{
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.article-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.article-text{
+    font-size: 1.563rem;
+    text-align: center;
+}
+
+.article-mission, .article-values{
+    border: 1px solid #B5AAAA;
+}
+
+.article-vision p{
+    color: white;
+}

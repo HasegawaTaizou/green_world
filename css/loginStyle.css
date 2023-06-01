@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 54px 98px 32px 98px;
+  gap: 32px;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+}
+
+input {
+  border-radius: 5px;
+  width: 314px;
+  height: 46px;
+  padding-left: 12px;
+  font-family: "Abel";
+  font-size: 1.25rem;
+}
+
+label {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.form__email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.email__input {
+  background-color: var(--input-background-color);
+}
+
+.form__password-container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.password__input {
+  background-color: var(--input-background-color);
+}
+
+.login__button {
+  width: 314px;
+  height: 46px;
+  background: #408d7b;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Abel";
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+
+.login__forgot-password {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+  margin: 0px 80px;
+}
+
+.login__register {
+  width: 314px;
+  height: 46px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #000;
+  font-family: "Abel";
+  font-size: 1.125rem;
+  cursor: pointer;
+}
