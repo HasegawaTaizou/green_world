@@ -1,0 +1,264 @@
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.side-nav {
+    padding: 30px 0 30px 0;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+        "close"
+        "administrator"
+        "nav"
+        "logout";
+    gap: 40px;
+    height: 100%;
+    box-shadow: 3px 4px 15px #D6D6D6;
+    width: 400px;
+
+}
+
+.close__button {
+    grid-area: close;
+    place-self: start start;
+    padding-left: 30px;
+}
+
+.profile-administrator-content {
+    grid-area: administrator;
+}
+
+.profile-administrator-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.profile_administrator__name {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.profile_administrator__image {
+    width: 80px;
+    height: 80px;
+}
+
+.navigation {
+    grid-area: nav;
+    width: 100%;
+    padding: 70px 30px 0 30px;
+}
+
+.navigation-fields-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.navigation-field__name {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.navigation-field a {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    height: 58px;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+
+}
+
+.navigation-field a:hover {
+    background-color: rgba(64, 141, 123, 0.4);
+    padding-left: 20px;
+}
+
+.log-out-content {
+    grid-area: logout;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.log-out__button {
+    background-color: transparent;
+    color: #000;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    border: 0;
+    transition: all 400ms ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.log-out__text {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#seeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 80vw;
+    gap: 80px;
+    padding: 70px 100px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #bbbbbd;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #ededed;
+}
+
+.seed__title {
+    font-size: 1.875rem;
+    color: var(--title-color);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.seed__item {
+    box-shadow: 1px 1px 10px rgba(169, 169, 169, 0.35);
+    height: 70px;
+    width: 380px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+.seed__id {
+    background-color: var(--title-color);
+    height: 25px;
+    width: 25px;
+    border-radius: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.seed__name {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.search-field-content {
+    position: relative;
+    align-self: flex-end;
+}
+
+.search-field__input {
+    box-shadow: 1px 1px 10px rgba(169, 169, 169, 0.35);
+    width: 380px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 80px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+#search-field__icon {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+
+.seeds-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.filters-search-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.filters-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.status-finished{
+    background-color: var(--title-color);
+}
+
+.status-pending{
+    background-color: var(--section-background-color);
+}
+
+.filter_ball{
+    height: 22px;
+    width: 22px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.filter{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter__status-name{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.seed__id {
+    background-color: var(--title-color);
+    height: 25px;
+    width: 25px;
+    border-radius: 200px;
+   
+}
