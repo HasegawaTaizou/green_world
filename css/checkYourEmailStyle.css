@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 54px 98px 32px 98px;
+  gap: 32px;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  gap: 32px;
+}
+
+.check-your-email__image {
+  margin-top: 12px;
+}
+
+.check-your-email__text {
+  max-width: 332px;
+  font-size: 1.25rem;
+  padding: 0px 24px;
+}
