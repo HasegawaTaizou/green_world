@@ -18,3 +18,7 @@ a {
 html {
     scroll-behavior: smooth;
 }
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
