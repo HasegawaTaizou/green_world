@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/generalStyle.css" />
     <link rel="stylesheet" href="./css/privacyPolicyStyle.css">
+    <link rel="stylesheet" href="./css/privacyPolicyResponsiveStyle.css">
 
     <script defer src="./js/privacy_policy.js"></script>
 
@@ -25,14 +28,14 @@
 
 <body>
     <header>
-        <h1 class="our-partners__title">Política de privacidade</h1>
+        <h1 class="privacy-policy__title">Política de privacidade</h1>
         <router-link class="return__link" to="/">
             <img src="../img/return-icon.png" alt="Return Icon" class="return__icon" />
         </router-link>
     </header>
     <main>
         <div class="privacy-policy__content-text">
-            <p class="privacy-policy__content-text__text">
+            <p class="privacy-policy-description__text">
                 A sua privacidade é importante para nós. Esta Política de Privacidade descreve como coletamos, usamos,
                 compartilhamos e protegemos as informações pessoais que você fornece ao usar o nosso site. Recomendamos
                 que você leia atentamente esta política para entender como tratamos os seus dados pessoais.
@@ -42,7 +45,7 @@
         <ul class="privacy-policy-container">
             <li onclick="changeState('.information-we-collect', '.information-we-collect__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Informações que coletamos</h2>
+                    <h2 class="privacy-policy__question">Informações que coletamos</h2>
                     <img class="information-we-collect__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-we-collect privacy-policy__content-info">
@@ -58,7 +61,7 @@
             </li>
             <li onclick="changeState('.use-of-information', '.use-of-information__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Uso das informações</h2>
+                    <h2 class="privacy-policy__question">Uso das informações</h2>
                     <img class="use-of-information__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="use-of-information privacy-policy__content-info">
@@ -76,7 +79,7 @@
             </li>
             <li onclick="changeState('.information-sharing', '.information-sharing__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Compartilhamento de informações</h2>
+                    <h2 class="privacy-policy__question">Compartilhamento de informações</h2>
                     <img class="information-sharing__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-sharing privacy-policy__content-info">
@@ -98,7 +101,7 @@
             </li>
             <li onclick="changeState('.information-security', '.information-security__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Segurança das informações</h2>
+                    <h2 class="privacy-policy__question">Segurança das informações</h2>
                     <img class="information-security__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-security privacy-policy__content-info">
@@ -111,7 +114,7 @@
             </li>
             <li onclick="changeState('.links-to-other-sites', '.links-to-other-sites__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Links para outros sites</h2>
+                    <h2 class="privacy-policy__question">Links para outros sites</h2>
                     <img class="links-to-other-sites__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="links-to-other-sites privacy-policy__content-info">
