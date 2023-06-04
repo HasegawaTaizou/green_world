@@ -1,0 +1,13 @@
+@media (max-width: 1239px) {
+    .who-we-are__text{
+        font-size: 1.4rem;
+    }
+    
+}
+
+@media (max-width: 1085px) {
+    .who-we-are__text{
+        font-size: 1.4rem;
+    }
+    
+}

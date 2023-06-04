@@ -1,0 +1,28 @@
+@media (max-width: 620px) {
+    #company-management{
+        padding: 60px 30px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    #company-management{
+        gap: 60px;
+    }
+
+    #company-management article{
+        height: 300px;
+        width: 300px;
+        gap: 30px;
+    
+    }
+
+    .article-text{
+        font-size: 1.2rem ;
+    }
+
+    .article-title__span{
+        font-size: 1.5rem;
+    }
+    
+}

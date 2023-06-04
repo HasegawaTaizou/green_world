@@ -1,0 +1,91 @@
+@media (max-width: 1120px) {
+    .navigations{
+        font-size: 1rem;
+    }
+
+    .caption-home{
+        max-width: 45vw;
+    }
+}
+
+@media (max-width: 970px) {
+    header{
+        padding: 30px 60px;
+    }
+
+    .navigations{
+        display: none;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    /* #mySidenav{
+        display: block;
+    } */
+
+    .content-presenting-company{
+        padding: 250px 60px 15px 60px;
+    }
+
+    .title-home{
+        font-size: 3.6rem;
+    }
+
+    .caption-home{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width: 590px) {
+    .content-presenting-company{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .caption-home{
+        max-width: 70vw;
+    }
+}
+
+
+@media (max-width: 500px) {
+    header{
+        padding: 30px 30px;
+    }
+
+    .sign-up__button{
+        display: none;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .content-presenting-company{
+        padding: 300px 30px 0px 30px;
+    }
+
+    .title-home{
+        font-size: 3.2rem;
+        width: 220px;
+    }
+
+    .caption-home{
+        font-size: 1.5rem;
+        width: 100vw;
+    }
+
+    .know-more-home__button{
+        width: 190px;
+    }
+}
+
+@media (max-height: 760px) {
+    .content-presenting-company{
+        padding: 180px 30px 0px 30px;
+    }
+}
