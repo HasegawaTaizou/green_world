@@ -77,6 +77,7 @@
     .caption-home{
         font-size: 1.5rem;
         width: 100vw;
+        text-align: center;
     }
 
     .know-more-home__button{
@@ -86,6 +87,6 @@
 
 @media (max-height: 760px) {
     .content-presenting-company{
-        padding: 180px 30px 0px 30px;
+        padding: 150px 30px 50px 30px;
     }
 }

@@ -1,25 +1,25 @@
 @media (max-width: 1239px) {
-    .who-we-are__text {
+    .our-cause__text {
         font-size: 1.4rem;
     }
 
 }
 
 @media (max-width: 1085px) {
-    #who-we-are {
-        flex-direction: column;
+    #our-cause {
+        flex-direction: column-reverse;
         align-items: center;
 
         gap: 60px;
     }
 
-    .teste {
+    .our-cause__image {
         width: 70vw;
         height: 90vh;
         border-radius: 10px;
     }
 
-    .who-we-are-content {
+    .our-cause-content {
         gap: 60px;
         width: 100%;
     }
@@ -27,12 +27,12 @@
 
 @media (max-width: 730px) {
 
-    .teste {
+    .our-cause__image {
 
         height: auto;
     }
 
-    .who-we-are__title {
+    .our-cause__title {
         font-size: 2.7rem;
     }
 }
@@ -40,21 +40,21 @@
 
 @media (max-width: 578px) {
 
-    .teste {
+    .our-cause__image {
         width: 450px;
         height: auto;
 
     }
 
-    .who-we-are__title {
+    .our-cause__title {
         font-size: 2.7rem;
     }
 
-    .who-we-are__title {
+    .our-cause__title {
         font-size: 2.4rem;
     }
 
-    .who-we-are-content {
+    .our-cause-content {
         padding: 0 50px;
 
     }
@@ -66,28 +66,29 @@
         gap: 40px;
     }
 
-    .teste {
+    .our-cause__image {
         width: 400px;
     }
 
-    .who-we-are__title {
+    .our-cause__title {
         font-size: 2.1rem;
     }
 
-    .who-we-are__text {
+    .our-cause__text {
         font-size: 1.1rem;
     }
 
-    .who-we-are-content {
+    .our-cause-content {
         gap: 40px;
 
     }
 
     @media (max-width: 430px) {
-        .teste {
+        .our-cause__image {
             width: 330px;
         }
-        .who-we-are-content{
+
+        .our-cause-content{
             padding: 0 35px;
         }
     }

@@ -1,0 +1,20 @@
+@media (max-width: 730px) {
+    #our-partners{
+        padding: 100px 60px 100px 60px;
+    }
+
+    .our-partners-title {
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .founders-title{
+        font-size: 2.1rem;
+        text-align: center;
+    }
+
+    .founders-content{
+        padding-top: 60px;
+    }
+
+}
