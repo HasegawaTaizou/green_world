@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/generalStyle.css" />
     <link rel="stylesheet" href="./css/faqStyle.css">
+    <link rel="stylesheet" href="./css/faqResponsiveStyle.css">
 
     <script defer src="./js/faq.js"></script>
 
@@ -27,14 +28,14 @@
 
 <body>
     <header>
-        <h1 class="our-partners__title">Perguntas Frequentes</h1>
+        <h1 class="privacy-policy__title">Perguntas Frequentes</h1>
         <router-link class="return__link" to="/">
             <img src="../img/return-icon.png" alt="Return Icon" class="return__icon" />
         </router-link>
     </header>
     <main>
         <div class="privacy-policy__content-text">
-            <p class="privacy-policy__content-text__text">
+            <p class="faq__text">
                 Separamos algumas das perguntas que mais recebemos com o objetivo de sanar dúvidas à respeito dos nossos projetos. Ainda assim, se necessário, não hesite em entrar em contato conosco. Estamos à sua disposição!
             </p>
             <img class="privacy-policy__content-text__image" src="./img/faq.png" alt="">
@@ -42,7 +43,7 @@
         <ul class="privacy-policy-container">
             <li onclick="changeState('.information-we-collect', '.information-we-collect__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Preciso morar em Alagoas para ser um voluntário?</h2>
+                    <h2 class="privacy-policy__question">Preciso morar em Alagoas para ser um voluntário?</h2>
                     <img class="information-we-collect__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-we-collect privacy-policy__content-info">
@@ -58,7 +59,7 @@
             </li>
             <li onclick="changeState('.use-of-information', '.use-of-information__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Quais requisitos preciso atender para ser um beneficiado?</h2>
+                    <h2 class="privacy-policy__question">Quais requisitos preciso atender para ser um beneficiado?</h2>
                     <img class="use-of-information__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="use-of-information privacy-policy__content-info">
@@ -76,7 +77,7 @@
             </li>
             <li onclick="changeState('.information-sharing', '.information-sharing__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">Como solicito a ajuda novamente?</h2>
+                    <h2 class="privacy-policy__question">Como solicito a ajuda novamente?</h2>
                     <img class="information-sharing__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-sharing privacy-policy__content-info">
@@ -98,7 +99,7 @@
             </li>
             <li onclick="changeState('.information-security', '.information-security__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">O projeto contempla qual região?</h2>
+                    <h2 class="privacy-policy__question">O projeto contempla qual região?</h2>
                     <img class="information-security__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="information-security privacy-policy__content-info">
@@ -111,7 +112,7 @@
             </li>
             <li onclick="changeState('.links-to-other-sites', '.links-to-other-sites__plus-sign')" class="privacy-policy">
                 <div class="privacy-policy__button">
-                    <h2 class="privacy-policy__title">A partir de qual idade posso me tornar um voluntário?</h2>
+                    <h2 class="privacy-policy__question">A partir de qual idade posso me tornar um voluntário?</h2>
                     <img class="links-to-other-sites__plus-sign plus-sign__icon" src="./img/plus-sign-icon.png" alt="Plus sign">
                 </div>
                 <div class="links-to-other-sites privacy-policy__content-info">
