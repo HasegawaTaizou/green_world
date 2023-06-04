@@ -1,49 +1,156 @@
-@media (max-width: 1220px) {
-  main {
-    flex-direction: column;
-    align-items: center;
-    gap: 78px;
-  }
+@media (max-width: 1200px) {
+    footer {
+        grid-template-columns: auto auto auto;
+    }
 
-  .volunteers__image {
-    margin: 0;
-    max-width: 30vw;
-    max-height: 62vh;
-    min-width: 16vh;
-    min-height: 12vh;
-  }
+    .support-content {
+        place-self: center center;
+        min-height: 126px;
 
-  .faqs {
-    padding-bottom: 96px;
-    padding-left: 48px;
-  }
+    }
+
+    .contact-content {
+        grid-area: contact;
+        place-self: center center;
+    }
+
+    .privacy-policy__question {
+        padding-right: 20px;
+    }
 }
 
-@media (max-width: 790px) {
-  header {
-    padding: 48px 20px;
-    margin: 0px;
-    gap: 12px;
-  }
+@media (max-width: 950px) {
+    .privacy-policy__question {
+        font-size: 1.6rem;
+    }
+
+    .privacy-policy__text {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+            "agriculture"
+            "social-media"
+            "support"
+            "contact"
+            "copyright";
+        place-items: center;
+        /* place-self: center; */
+        padding: 60px 60px 20px 60px;
+    }
+
+    .social-media-container {
+        place-self: center;
+    }
+
+    .support-content {
+        padding-bottom: 90px;
+        min-width: 350px;
+    }
+
+    .contact-content {
+        padding-bottom: 90px;
+        min-width: 350px;
+    }
 }
 
-@media (max-width: 520px) {
-  .faq {
-    margin: 0;
-  }
+@media (max-width: 670px) {
+    header {
+        padding: 54px 60px 0px 60px
+    }
 
-  .faq__question {
-    font-size: 1rem;
-    padding-bottom: 12px;
-  }
+    .privacy-policy__content-text {
+        padding: 60px 60px 89px 60px;
+    }
 
-  .faq__answer {
-    font-size: 1rem;
-  }
+    .privacy-policy__title {
+        font-size: 1.95rem;
+    }
 
-  .faq__icon-open,
-  .faq__icon-close {
-    width: 16px;
-    height: 16px;
-  }
+    .return__icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .faq__text {
+        font-size: 1.6rem;
+    }
+
+    .privacy-policy__content-text__image {
+        width: 75vw;
+        height: auto;
+    }
+
+    .privacy-policy__question {
+        font-size: 1.3rem;
+    }
+
+    .privacy-policy {
+        padding-bottom: 15px;
+    }
+
+    .privacy-policy__text {
+        font-size: 1.15rem;
+    }
+
+    .privacy-policy-container {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 570px) {
+    .meaning-of-agriculture__title {
+        font-size: 1.9rem;
+    }
+
+    .meaning-of-agriculture__text {
+        font-size: 1.1rem;
+    }
+
+    .support__title,
+    .contact__title {
+        font-size: 1.5rem;
+    }
+
+    .support__links,
+    .contact {
+        font-size: 1rem;
+    }
+
+    .social-media-container {
+        padding-bottom: 60px;
+    }
+
+    .support-content {
+        padding-bottom: 60px;
+        min-height: 0;
+        place-self: start;
+    }
+
+    .contact-content {
+        min-height: 0;
+        place-self: start;
+    }
+
+    .meaning-of-agriculture-content{
+        place-self: start;
+    }
+
+    .copyright {
+        font-size: 0.9rem;
+    }
+
+    .plus-sign__icon {
+        height: 22px;
+        width: 22px;
+    }
+}
+
+@media (max-width: 380px) {
+    .privacy-policy-container {
+        width: 100vw;
+    }
 }
