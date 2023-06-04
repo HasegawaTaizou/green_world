@@ -1,0 +1,26 @@
+@media (max-width: 762px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .return__icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  input {
+    width: 75vw;
+  }
+
+  .login__button {
+    width: 75vw;
+  }
+
+  .login__register {
+    width: 75vw;
+  }
+}

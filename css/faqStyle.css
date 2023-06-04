@@ -6,6 +6,7 @@ header {
     padding: 54px 98px 0px 98px;
 }
 
+
 .privacy-policy__content-text{
     padding: 112px 98px 100px 98px;
     display: flex;
@@ -13,7 +14,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 80px;
-}
+
 
 /* .privacy-policy__content-text{
     padding: 112px 98px 100px 98px;

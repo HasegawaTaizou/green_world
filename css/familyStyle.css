@@ -1,0 +1,23 @@
+#family{
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 100px 85px 100px 85px;
+}
+
+.familys-imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.familys-imagens img{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+}
+
+.family-know-more__link{
+    place-self: center;
+}

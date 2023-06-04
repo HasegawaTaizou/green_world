@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/dashboardHomeStyle.css">
+    <link rel="stylesheet" href="./css/reset_two.css">
+    <link rel="stylesheet" href="./css/variables.css">
+
+    <script src="./js/side_nav.js" defer type="module"></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img onclick="openNavFull" src="./img/menu_image.png" alt="Menu">
+
+            <a class="close__button" onclick="closeNav()" href="#">
+                <img src="./img/close_image.png" alt="Close">
+            </a>
+
+            <!-- <ul id="mySideNav" class="side_nav">
+            <li>
+                <a href="#" class="closebtn" onclick="closeNav()"
+                  ><i class="fas fa-times"></i
+                ></a>
+              </li>
+              <li><a href="#" class="navigation">Home</a></li>
+              <li><a href="#" class="navigation">Ajudas</a></li>
+              <li><a href="#" class="navigation">Voluntários</a></li>
+              <li><a href="#" class="navigation">Beneficiados</a></li>
+              <li><a href="#" class="navigation">Sementes</a></li>
+            </ul> -->
+        </nav>
+
+        <div class="container-image-log-out">
+            <img src="./img/profile_administrator.png" alt="Image profile">
+            <!-- <div class="log-out-content">
+                <a href="#">
+                    <img src="./img/logout_image.png" alt="Image log out">
+                    <span class="log-out__text">Log out</span>
+                </a>
+            </div> -->
+            <a href="#" class="log-out-content">
+                <button class="log-out__button">
+                    <img src="./img/logout_image.png" alt="Image log out">
+                    <span class="log-out__text">Log out</span>
+                </button>
+            </a>
+        </div>
+    </header>
+    <main>
+        <img class="welcome__image" src="./img/welcome_image.png" alt="Welcome">
+        <h1 class="welcome__title">Bem vindo</h1>
+    </main>
+</body>
+
+</html>

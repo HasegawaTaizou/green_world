@@ -1,0 +1,42 @@
+@media (max-width: 762px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .return__icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .redefine-password__text {
+    max-width: 75vw;
+  }
+
+  input {
+    width: 75vw;
+  }
+
+  .redefine-password__return-button {
+    width: 75vw;
+  }
+
+  .redefine-password__enter-button {
+    width: 75vw;
+  }
+}
+
+@media (max-width: 592px) {
+  .redefine-password__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .redefine-password__title {
+    font-size: 1.25rem;
+  }
+}

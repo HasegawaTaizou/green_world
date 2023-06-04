@@ -1,0 +1,128 @@
+.header-feedback-beneficiaries{
+    padding: 54px 98px 112px 98px;
+    display: flex;
+    align-items: start;
+    background-image: url(../img/beneficiaries.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+}
+
+.main-feedback-beneficiaries{
+    padding: 40px 80px 80px 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
+.content-achievements{
+    color: #fff;
+    background-color: var(--subtitle-color);
+    height: 245px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.title-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.feedback-title {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.return__icon {
+    filter: brightness(0) invert(1);
+}
+
+.achievements__title{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.achievements__title span{
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.achievements{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 50px;
+}
+
+.name-achievements{
+    text-align: center;
+    max-width: 220px;
+}
+
+.item-achievements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.count{
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.feedbacks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.feedback__image{
+    border-radius: 20px 20px 0 0;
+}
+
+.feedback{
+    background-color: var(--feedback-color);
+    width: 285px;
+    height: 510px;
+    border-radius: 20px;
+    
+}
+
+.feedback__content-texts{
+    padding: 20px 27px 30px 27px;
+}
+
+.feedback__title{
+    color: var(--section-background-color);
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.feedback__name{
+    font-weight: 700;
+}
+
+.feedback__text{
+    font-size: 0.9rem;
+    color: black;
+    padding-top: 10px;
+}
