@@ -1,0 +1,42 @@
+@media (max-width: 762px) {
+  header {
+    padding: 48px 20px;
+    margin: 0px;
+    gap: 12px;
+  }
+
+  .volunteer-registration-part-one__title {
+    font-size: 1.45rem;
+  }
+
+  .return__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .volunteer-registration-part-one-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .volunteer-registration__button {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 420px) {
+  .volunteer-registration__image {
+    max-width: 65vw;
+    max-height: 62vh;
+    min-width: 16vh;
+    min-height: 16vh;
+  }
+
+  input {
+    width: 75vw;
+  }
+
+  .volunteer-registration__button {
+    width: 75vw;
+  }
+}

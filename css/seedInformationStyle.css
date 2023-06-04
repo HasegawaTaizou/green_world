@@ -1,0 +1,204 @@
+body {
+    height: 100vh;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.side-nav {
+    padding: 30px 0 30px 0;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+        "close"
+        "administrator"
+        "nav"
+        "logout";
+    gap: 40px;
+    height: 100%;
+    box-shadow: 3px 4px 15px #D6D6D6;
+    width: 400px;
+
+}
+
+.close__button {
+    grid-area: close;
+    place-self: start start;
+    padding-left: 30px;
+}
+
+.profile-administrator-content {
+    grid-area: administrator;
+}
+
+.profile-administrator-content a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.profile_administrator__name {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.profile_administrator__image {
+    width: 80px;
+    height: 80px;
+}
+
+.navigation {
+    grid-area: nav;
+    width: 100%;
+    padding: 70px 30px 0 30px;
+}
+
+.navigation-fields-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+
+}
+
+.navigation-field__name {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.navigation-field a {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    height: 58px;
+    border-radius: 10px;
+    transition: all 400ms ease-in-out;
+
+}
+
+.navigation-field a:hover {
+    background-color: rgba(64, 141, 123, 0.4);
+    padding-left: 20px;
+}
+
+.log-out-content {
+    grid-area: logout;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.log-out__button {
+    background-color: transparent;
+    color: #000;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    border: 0;
+    transition: all 400ms ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.log-out__text {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#seeds {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 80vw;
+    gap: 80px;
+    padding: 70px 100px;
+}
+
+
+.seed-information{
+    display: flex;
+    align-self: flex-start;
+    gap: 100px;
+    
+}
+
+.seed-content{
+   display: flex;
+   gap: 40px;
+   align-self: flex-start;
+}
+
+.seed-content__tag-name{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.seed-content__image{
+    border-radius: 15px;
+    width: 300px;
+    height: 240px;
+}
+
+.seed-content__tag{
+    padding: 8px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--section-background-color);
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.seed-information__content-data{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.seed__title{
+    font-weight: 600;
+    font-size: 2.188rem;
+}
+
+.seed-information__title{
+    font-weight: 600;
+    font-size: 1.55rem;
+}
+
+.seed-information__data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.seed-information__recommendations{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    max-width: 30vw;
+}
+
+.seed-information__text{
+    color: #6D6868;
+    font-size: 1.25rem;
+}
+
+.seed-information__data_question{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
