@@ -1,0 +1,82 @@
+header {
+  display: flex;
+    align-items: flex-start;
+  padding: 54px 96px 32px 96px;
+  gap: 32px;
+  width: 100%;
+  background-image: url('../img/every-drop-counts-banner-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.food_basket_distribution_project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.food-basket-distribution-project__title{
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.return__icon{
+  filter: brightness(0) invert(1);
+}
+
+.project-goal {
+  padding: 92px 86px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.project-goal__title {
+  font-size: 2.5rem;
+}
+
+.project-goal__text {
+  font-size: 1.875rem;
+}
+
+.how-is-possible {
+  padding: 0px 86px 92px 82px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.how-is-possible__title {
+  font-size: 2.5rem;
+}
+
+.how-is-possible__item {
+  font-size: 1.875rem;
+  color: var(--text-color);
+}
+
+.project-images-container {
+  width: 100%;
+  background-image: linear-gradient(
+    #fff 45%,
+    var(--section-background-color) 20%
+  );
+}
+
+.project-images-container {
+    padding-bottom: 96px;
+}
+
+.project-images {
+  display: flex;
+  justify-content: space-around;
+}

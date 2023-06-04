@@ -12,41 +12,62 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+html {
+  scroll-behavior: smooth;
 }
 
-input[type="number"] {
-  -moz-appearance: textfield;
+body {
+  font-family: "Abel", sans-serif;
+  min-height: 100vh;
+  display: grid;
+  justify-items: center;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+button {
+  font-family: "Abel", sans-serif;
+  outline: 0;
+  border: 0;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+h2 {
+  font-weight: 600;
+  color: var(--subtitle-color);
+}
+
+p {
+  color: var(--text-color);
+  font-size: 1.875rem;
 }
 
 input {
-  outline: 0;
   border: 0;
 }
 
 input:focus {
+  box-shadow: 0 0 0 0;
   outline: 0;
-}
-
-select:focus {
-  outline: 0;
-}
-
-fieldset {
-  border-width: 0;
 }
 
 textarea {
-  border: 0;
-  outline: 0;
-}
-
-button {
-  outline: 0;
   border: 0;
 }
