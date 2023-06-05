@@ -9,6 +9,14 @@
     justify-content: space-between;
 }
 
+#mySidenav{
+    display: none;
+}
+
+.menu{
+    display: none;
+}
+
 .content-presenting-company{
     padding: 300px 85px 0 85px;
 }

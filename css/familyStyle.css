@@ -10,12 +10,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .familys-imagens img{
     width: 400px;
     height: 400px;
     border-radius: 400px;
+
 }
 
 .family-know-more__link{

@@ -1,0 +1,95 @@
+@media (max-width: 1239px) {
+    .who-we-are__text {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 1085px) {
+    #who-we-are {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 60px;
+    }
+
+    .teste {
+        width: 70vw;
+        height: 90vh;
+        border-radius: 10px;
+    }
+
+    .who-we-are-content {
+        gap: 60px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .teste {
+
+        height: auto;
+    }
+
+    .who-we-are__title {
+        font-size: 2.7rem;
+    }
+}
+
+
+@media (max-width: 578px) {
+
+    .teste {
+        width: 450px;
+        height: auto;
+
+    }
+
+    .who-we-are__title {
+        font-size: 2.7rem;
+    }
+
+    .who-we-are__title {
+        font-size: 2.4rem;
+    }
+
+    .who-we-are-content {
+        padding: 0 50px;
+
+    }
+}
+
+
+@media (max-width: 500px) {
+    #who-we-are {
+        gap: 40px;
+    }
+
+    .teste {
+        width: 400px;
+    }
+
+    .who-we-are__title {
+        font-size: 2.1rem;
+    }
+
+    .who-we-are__text {
+        font-size: 1.1rem;
+    }
+
+    .who-we-are-content {
+        gap: 40px;
+
+    }
+
+    @media (max-width: 430px) {
+        .teste {
+            width: 330px;
+        }
+        .who-we-are-content{
+            padding: 0 35px;
+        }
+    }
+
+}

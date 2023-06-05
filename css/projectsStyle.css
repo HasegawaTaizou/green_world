@@ -1,9 +1,11 @@
 #projects {
-    height: 100vh;
+    min-height: 100vh;
     padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 60px;
+    height: auto;
 }
 
 .projects-title-content {
@@ -15,7 +17,8 @@
 .projects-container {
     display: flex;
     align-items: center;
-   
+   gap: 30px;
+   flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 85px 70px 85px;
     background-image: linear-gradient(#fff 35%,

@@ -28,7 +28,19 @@
     <link rel="stylesheet" href="./css/footerStyle.css" />
 
 
+    <link rel="stylesheet" href="./css/footerResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/homeResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/companyManagementResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/side-nav.css" />
+    <link rel="stylesheet" href="./css/whoWeAreResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/ourCauseResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/projectsResponsiveStyle.css" />
+    <link rel="stylesheet" href="./css/partnersResponsiveStyle.css" />
+
+
+
     <script src="https://kit.fontawesome.com/56adc94ecd.js" crossorigin="anonymous"></script>
+    <script src="./js/side-nav.js" defer type="module"></script>
 
     <title>Green World</title>
 </head>
@@ -36,6 +48,7 @@
 <body>
     <header>
         <nav class="navigation-container">
+            <img class="menu" onclick="openNavHalf()" id="icon-half-menu" aria-hidden="true" src="./img/menu.png" alt="">
             <ul class="navigations">
                 <li class="navigation"><a href="#who-we-are">Quem somos?</a></li>
                 <li class="navigation"><a href="#our-cause">Nossa causa</a></li>
@@ -44,13 +57,37 @@
                 <li class="navigation"><a href="#our-partners">Parcerias</a></li>
                 <li class="navigation"><a href="./volunteers.html">Voluntários</a></li>
             </ul>
+            <ul id="mySidenav" class="sidenav">
+                <li>
+                    <a href="#" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                </li>
+                <li>
+                    <a href="#casa">Início</a>
+                </li>
+                <li>
+                    <a href="#especies">Espécies</a>
+
+                </li>
+                <li>
+                    <a href="#fenomenos">Fenômenos</a>
+
+                </li>
+                <li>
+                    <a href="#poluicao">Poluição</a>
+
+                </li>
+                <li>
+                    <a href="#informacoes">Informações</a>
+
+                </li>
+            </ul>
         </nav>
         <div class="content-buttons">
-            <a href="#" class="log-in__link">
+            <!-- <a href="#" class="log-in__link">
                 <button class="log-in__button">
                     Log In
                 </button>
-            </a>
+            </a> -->
             <a href="#" class="sign-up__link">
                 <button class="sign-up__button">
                     Cadastre-se
